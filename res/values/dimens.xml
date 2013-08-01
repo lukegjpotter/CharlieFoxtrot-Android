@@ -1,0 +1,8 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="padd">5dp</dimen>
+    <dimen name="tagButtonWidth">200dp</dimen>
+    <dimen name="clearButtonWidth">70dp</dimen>
+
+</resources>

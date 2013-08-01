@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/tableLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/padd"
+    android:stretchColumns="*" >
+   
+    <!-- Table Row 0 -->
+    <TableRow android:id="@+id/tableRow0"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+        
+        <EditText
+            android:id="@+id/queryEditText"
+            android:layout_weight="3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:hint="@string/queryPrompt"
+            android:imeOptions="actionDone"
+            android:inputType="text" />
+
+        <ImageButton
+            android:id="@+id/queryButton"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:src="@android:drawable/ic_menu_search" />
+        
+    </TableRow>
+    
+    <!-- Table Row 1 -->
+    <TableRow android:id="@+id/tableRow1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/padd" >
+        
+        <TextView android:id="@+id/savedQueriesTextView" 
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_span="2"
+            android:textSize="18sp"
+            android:padding="@dimen/padd"
+            android:text="@string/savedQueries" />
+        
+    </TableRow>
+    
+    <!-- Table Row 2 -->
+    <TableRow android:id="@+id/tableRow2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1" >
+        
+        <ScrollView android:id="@+id/savedScrollView"
+            android:layout_width="match_parent"
+            android:layout_span="2"
+            android:padding="@dimen/padd" >
+            
+            <TableLayout android:id="@+id/queryTableLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/padd"
+                android:stretchColumns="*" />
+            
+        </ScrollView>
+        
+    </TableRow>
+    
+    <!-- Table Row 3 -->
+    <TableRow android:id="@+id/tableRow3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+        
+        <Button android:id="@+id/clearSavedQueries"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_span="2"
+            android:layout_marginTop="@dimen/padd"
+            android:text="@string/clearSavedQueries"
+             />
+        
+    </TableRow>
+    
+</TableLayout>
