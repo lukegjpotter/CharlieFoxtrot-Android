@@ -13,19 +13,20 @@
         
         <EditText
             android:id="@+id/queryEditText"
-            android:layout_weight="3"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
+            android:layout_weight="3"
             android:hint="@string/queryPrompt"
             android:imeOptions="actionDone"
-            android:inputType="text" />
+            android:inputType="text"
+            android:textColor="@android:color/black" />
 
         <ImageButton
             android:id="@+id/queryButton"
-            android:layout_weight="1"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
+            android:layout_weight="1"
             android:src="@android:drawable/ic_menu_search" />
         
     </TableRow>
@@ -41,10 +42,10 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
             android:layout_span="2"
-            android:textSize="18sp"
             android:padding="@dimen/padd"
-            android:text="@string/savedQueries" />
-        
+            android:text="@string/savedQueries"
+            android:textSize="18sp" />
+
     </TableRow>
     
     <!-- Table Row 2 -->
@@ -76,11 +77,11 @@
         <Button android:id="@+id/clearSavedQueries"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_span="2"
             android:layout_marginTop="@dimen/padd"
+            android:layout_span="2"
             android:text="@string/clearSavedQueries"
-             />
-        
+            android:textColor="@android:color/black" />
+
     </TableRow>
     
 </TableLayout>
