@@ -7,7 +7,6 @@ There is also an [iOS version of Charlie Foxtrot](https://itunes.apple.com/ie/ap
 
 # To Do
 
- 1. Update the UI to get rid of the stupid looking Search icon.
  1. Add a second page and Navigation to display results.
  1. Make this second page scroll long text.
  1. Implement MVC pattern for the app.

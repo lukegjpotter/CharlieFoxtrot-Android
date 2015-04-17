@@ -2,18 +2,19 @@
 <resources>
 
     <string name="app_name">Charlie Foxtrot</string>
-    <string name="queryPrompt">Enter Query</string>
+    <string name="queryPrompt">Text to Convert</string>
     <string name="query">Query</string>
-    <string name="savedQueries">Query History</string>
-    <string name="clearSavedQueries">Clear Query History</string>
+    <string name="savedQueries">Conversion History</string>
+    <string name="clearSavedQueries">Clear Conversion History</string>
     <string name="clear">Clear</string>
-    <string name="missingTitle">Missing Query</string>
-    <string name="missingMessage">Stop derping around. Please enter a query in the text box.</string>
+    <string name="missingTitle">Missing Conversion Query</string>
+    <string name="missingMessage">Please enter a query in the \"%s\" text box.</string>
     <string name="OK">Okay</string>
-    <string name="confirmDeleteTitle">Clear History?</string>
-    <string name="confirmDeleteMessage">Are you sure you wish to delete all your query history?</string>
+    <string name="confirmDeleteTitle">Clear Conversion History?</string>
+    <string name="confirmDeleteMessage">Are you sure you wish to delete all your Conversion history?</string>
     <string name="confirmDelete">Yes</string>
     <string name="cancel">Cancel</string>
     <string name="parsedTitle">Result</string>
+    <string name="button_convert">Convert</string>
 
 </resources>
